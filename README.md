@@ -12,6 +12,12 @@ For this application I was provided starter code and tasked to build the back en
   - [Usage](#usage)
   - [Questions](#questions)
 
+
+![Screenshot (92)](https://user-images.githubusercontent.com/76264693/115973555-e20eef00-a523-11eb-934f-1e0cea3299bc.png)
+
+![Screenshot (93)](https://user-images.githubusercontent.com/76264693/115973557-e3d8b280-a523-11eb-9c36-fcc7d45c031f.png)
+
+
 ## Acceptance Criteria
 * When the user adds their database name, MySQL username, and MySQL password to an environment variable file they are able to connect to a database using Sequelize.
 * When the user enters the schema and seed commands the development database is created and is seeded with test data
@@ -38,11 +44,11 @@ DB_PW='your mySQL Workbench password here'
 5. Open the schema.sql file in mySQL Workbench and run the file to create the database.
 6. Return to the command line terminal and type, "npm run seed" to seed the database. Open mySQL Workbench to check that the database tables have been seeded.
 7. Return to the command line terminal and type, "npm start" to activate the server.
-8. Once the server is "listening" you can open Insomnia Core to manipulate and view the the data.
+8. Once the server is "listening" you can open Insomnia Core to manipulate and view the the data using GET, POST, PUT, and DELETE.
 
   ## Usage
 
-Click the link to view the [Ecommerce]() in action!
+Click the link to view the [Ecommerce](https://youtu.be/Eafrf6FH4SQ) in action!
 
   ## Questions
 

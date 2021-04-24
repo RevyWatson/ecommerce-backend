@@ -27,24 +27,18 @@ This application utizes the [MySQL2](https://www.npmjs.com/package/mysql2) and [
 
 1. Fork and clone the repository.  
 2. Open the command terminal on your machine.
-2. Navigate through your file system to the location of the cloned repo.
+2. Navigate through your file system to the location of the cloned repo inside the Develope folder.
 3. To install the dependencies type “npm i”.
-4. Open the gitignore file and type the following within:
+4. Open the dotenv file and add your local instance name and password like so:
 ```
-node_modules/.DS_Store
-jspm_packages
-package-lock.json
-.env
+DB_NAME='ecommerce_db'
+DB_USER='your local instance's name here'
+DB_PW='your mySQL Workbench password here'
 ```
-5. Open the dotenv file and add your local instance name and password like so:
-```
-DB_USER="your local instance's name here"
-DB_PASSWORD="your mySQL Workbench password here"
-DB_NAME=ecommerce_db
-```
-7. Return to the command line terminal and type, "node run seeds" to seed the database. Open mySQL Workbench to check that the database tables have been seeded.
-8. Return to the command line terminal and type, "npm start" to activate the server.
-9.Once the server is "listening" you can open Insomnia Core to manipulate and view the the data.
+5. Open the schema.sql file in mySQL Workbench and run the file to create the database.
+6. Return to the command line terminal and type, "node seeds/index.js" to seed the database. Open mySQL Workbench to check that the database tables have been seeded.
+7. Return to the command line terminal and type, "npm start" to activate the server.
+8. Once the server is "listening" you can open Insomnia Core to manipulate and view the the data.
 
   ## Usage
 

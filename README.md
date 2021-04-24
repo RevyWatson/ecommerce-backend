@@ -36,7 +36,7 @@ DB_USER='your local instance's name here'
 DB_PW='your mySQL Workbench password here'
 ```
 5. Open the schema.sql file in mySQL Workbench and run the file to create the database.
-6. Return to the command line terminal and type, "node seeds/index.js" to seed the database. Open mySQL Workbench to check that the database tables have been seeded.
+6. Return to the command line terminal and type, "npm run seed" to seed the database. Open mySQL Workbench to check that the database tables have been seeded.
 7. Return to the command line terminal and type, "npm start" to activate the server.
 8. Once the server is "listening" you can open Insomnia Core to manipulate and view the the data.
 
